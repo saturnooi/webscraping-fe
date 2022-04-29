@@ -3,12 +3,7 @@
     <div class="container">
       <div class="col-12 col-md-12 col-sm-12 col-12">
         <div class="gallery-heading">
-          <h3><a href="javascript:;">Trending Destinations Hotels</a></h3>
-          <p>
-            Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis
-            rutrum. Aenean id ullamcorper libero Vestibulum imperdiet <br />nibh
-            vel magna lacinia commodo ultricies,
-          </p>
+          <h3><a href="javascript:;">ข่าวรายวัน</a></h3>
         </div>
       </div>
       <div class="gallery_table">
@@ -88,10 +83,10 @@
                         <div class="slider-content">
                 
                           <h6>
-                           <a v-bind:href="card.link" style="line-height:0.5;">{{ card.title }}</a>
+                           <a v-bind:href="card.link" style="line-height:1.5;">{{ card.title }}</a>
                           </h6>
                           <p class = "mt-3" style="height: 100px; overflow: hidden;">
-                           <a v-bind:href="card.link" style="font-size: 0.9vw">{{ card.subtitle[0]}}</a>
+                           <a v-bind:href="card.link" style="font-size: 0.7vw">{{ card.subtitle[0]}}</a>
                           </p>
                           
                         </div>
