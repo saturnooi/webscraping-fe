@@ -147,7 +147,7 @@ export default {
     },
   },
   async asyncData({ $axios }) {
-    const data = await $axios.$get('/')
+    const data = await $axios.$get('https://backendwebscraping.herokuapp.com/data')
 
     const All = data.All
  
